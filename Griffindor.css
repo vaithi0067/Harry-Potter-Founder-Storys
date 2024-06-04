@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Marck+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Sacramento&family=Six+Caps&family=Teachers:ital,wght@0,400..800;1,400..800&family=Yellowtail&display=swap');
+ 
+body{
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: linear-gradient(to right , black , red , black ); 
+}
+form{
+
+    width: 30%;
+    height: 60vh;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(187, 177, 164);
+    margin: auto;
+    top: 25%;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+
+}
+
+.hed{
+    display: flex;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    /* max-width: 50%; */
+    /* margin-top: 20px; */
+    /* margin: auto; */
+}
+
+.set{
+    padding-left: 12px;
+}
+
+.nn{
+
+    /* background-color: aquamarine; */
+    width: 80%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    margin: auto;
+    
+}
+label{
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 20px;
+}
+input{
+    
+    width: 80%;
+    margin: auto;
+    height: 20%;
+}
+button{
+    padding: 5px;
+    width: 20%;
+    border-radius: 50px;
+    font-family: "Teachers", sans-serif;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.img1:hover{
+
+    filter: drop-shadow(2px 2px 20px rgb(214, 218, 0));
+
+}
+.img2:hover{
+
+    filter: drop-shadow(2px 2px 20px rgb(218, 0, 0));
+
+}
+button:hover{
+
+    filter: drop-shadow(2px 2px 20px rgb(39, 34, 34));
+
+}

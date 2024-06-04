@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Marck+Script&family=Pacifico&family=Sacramento&family=Teachers:ital,wght@0,400..800;1,400..800&family=Yellowtail&display=swap');
+
+
+/* <!-- ..... header ..... --> */
+
+.hed1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.vid{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 10px #000000;
+}
+
+.vid video{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.content{
+    z-index: 5;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.content h1{
+    color: aliceblue;
+    /* font-family: "Six Caps", sans-serif; */
+    font-size: 150px;
+    text-shadow: 5px 5px #f1cc8775;
+}
+
+.content a{
+
+    font-size: 20px;
+}
+
+.h1h{
+    /* color: aliceblue; */
+    font-family: "Oleo Script", system-ui;
+    margin-bottom: 5%;
+}
+
+button{
+    text-align: center;
+    direction: none;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: none;
+    background-color: #8d6a44;
+}
+button:hover{
+    background-color: #f0e0c2;
+}
+button a{
+    color: #f0e0c2;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+}
+button a:hover{
+    color: #8d6a44;
+}
+
+/* <!-- ..... section 1 ..... --> */
+
+.h1{
+    color: #e29657;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 90px;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    font-family: "Yellowtail", cursive;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+    background-image: linear-gradient(to right, rgb(255, 217, 147), rgb(231, 204, 186),rgb(255, 217, 147));
+    /* background-color: violet; */
+
+}
+
+.row{
+    
+    margin: 10px;
+    width: 46%;
+    /* background-color: aquamarine; */
+}
+
+.line{
+    /* background-image: url(bg.jpg);
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 44px;
+    border:1px solid #000000;
+    font-size: 150%;
+    margin: 30px;
+    padding: 30px;
+    background-color: #f7e5d2;
+    box-shadow: 5px 5px 10px rgb(122, 67, 30);
+}
+.row h2{
+    text-decoration: underline 5px solid rgb(199, 184, 156);
+    text-shadow: 2px 2px #543310;
+    font-family: "Marck Script", cursive;
+    font-size: 70px;
+    
+}
+
+p{
+    /* font-size: 40px; */
+    line-height: 60px;
+    color: #543310;
+    font-family: "Dancing Script", cursive;
+    margin-top: 5%;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(255, 0, 0)
+}
+
+.pic{
+    border:1px solid #915525;
+    border-radius: 44px;
+    box-shadow: 5px 5px 10px rgb(148, 83, 40);
+}
+.pp::first-letter{
+    font-size: 80px;
+    color: rgb(46, 28, 12);
+}
+
+
+/* <!-- ..... section 2 ..... --> */
+
+.sec2{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+    background-color: #f0e0c2;
+    border: 2px #543310;
+}
+.h01{
+    color: #543310;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.class{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.sup {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+.aa{
+    text-decoration: none;
+    color: #49301c;
+    
+}
+.aa:hover{
+    color: rgb(119, 111, 101);
+    text-decoration: underline;
+}
+
+.bb:hover{
+    filter: drop-shadow(5px 5px 5px #9a123a); 
+}
+.cc:hover{
+    filter: drop-shadow(5px 5px 5px #d5942c); 
+}
+.dd:hover{
+    filter: drop-shadow(5px 5px 5px #1d4522); 
+}
+.ee:hover{
+    filter: drop-shadow(5px 5px 5px #01365c); 
+}
+
+/* ..... footer ..... */
+
+footer{
+    color: white;
+    background-color: rgb(16, 20, 27);
+}
+.list1 a{
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.f1{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 25px;
+
+}
+.list1 ul li a{
+    text-decoration: none;
+}
+.img1:hover{
+
+    filter: drop-shadow(5px 5px 5px white);
+}
